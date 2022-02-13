@@ -1,3 +1,4 @@
+import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
 body{
     background-color: #f9f9f9;
 }
@@ -70,4 +71,102 @@ body{
 .youtubeHeaderAvatarIcon{
     border-radius: 200px;
     height: 35px;
+}
+.youtubeBottomSection{
+    display: flex;
+    flex-direction: row;
+
+}
+.youtubeSidebar{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+}
+.youtubeSidebarField{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+    cursor: pointer;
+}
+.youtubeSidebarField:hover{
+    background-color: #e5e5e5ab;
+}
+.youtubeSidebarField i{
+    font-size: 15px;
+    color: #606060;
+    margin: 10px;
+    margin-right:25px;
+    margin-left:20px;
+}
+.youtubeSidebarField h1{
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.youtubeSidebar_hr{
+    height: 1px;
+    border-top:1px solid rgba(128, 128, 128, 0.397);
+    width: 100%;
+    margin: 10px;
+}
+.youtubeVideos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    flex: 1;
+    margin-left:250px;
+    width:100%;
+} 
+ 
+.youtubeVideo{
+    display: flex;
+    flex-direction:column;
+    height:fit-content;
+    width:270px;
+    padding: 5px;
+    cursor:pointer;
+}
+.youtubeVideoThumbnail{
+    height: auto;
+    width: 250px;
+}
+.youtubeVideoDetails{
+    display: flex;
+    flex-direction:row;
+}
+.youtubeChannelThumbnail{
+    border-radius:200px;
+    height:48px;
+    margin-top:12px;
+}
+.youtubeVideoTitle{
+    font-size:15px;
+    font-family: 'Roboto';
+    color:#000;
+    font-weight:500;
+    margin:18px;
+    margin-top:12px;
+    margin-bottom:0;
+    margin-left:10px
+}
+.youtubeChannelName .youtubeVideoViews {
+    font-size:13px;
+    font-family: 'Roboto';
+    color:#606060;
+    font-weight:400;
+    margin:18px;
+    margin-top:2px;
+    /* margin-bottom:0; */
+    margin-left:10px
+
+}
+.youtubeVideoViews{
+    margin-top: -12px;
 }
