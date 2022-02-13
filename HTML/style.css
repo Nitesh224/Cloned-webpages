@@ -64,9 +64,9 @@ body{
     font-size:20px;
     cursor: pointer;
 }
-.avatar{
+/* .avatar{
     border-radius: 200px;
-}
+} */
 .youtubeHeaderAvatarIcon{
     border-radius: 200px;
     height: 35px;
